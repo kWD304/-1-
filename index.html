@@ -1,22 +1,27 @@
 <!DOCTYPE html>
-<html lang="ko">
-
+<html lang="en"
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-compatidle" content="IE=edge">
+     <meta name="viwport" content="wiidth, initial-scale=1.0"
+     <title>Document</title>
+     <style>
+        body {
+            background-color:lightyellow;
+        }
+        .bgcolor--blue {
+            background-color: lightblue;
+        }
+     </style>     
 </head>
-
 <body>
-    <h1>안녕하세요 한국의 월트디즈니 입니다.</h1>
-    <spen></spen>
-    <a href=""></a> <img src="" alt=""> <img src="" alt="">
-    <img src="" alt="">
-    <img src="" alt="">
-    <ul>
-        <li></li>
-    </ul>
+    안녕하세요! 반갑습니다.
+    <button class="btn_bg">배경색상변경</button>
+    <script>
+        const btnBg = document.querySelector('.btn_bg');
+        btnBg.addEventListener('click',function () {
+            document.body.classList.toggle('bgcolor--blue');
+        })
+    </script>
 </body>
-
-</html>
+</html>    
